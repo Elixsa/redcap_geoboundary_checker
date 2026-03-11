@@ -21,6 +21,11 @@
 		"email": "datacore@vumc.org",
 		"institution": "Vanderbilt University Medical Center"
 	  }
+	  {
+		"name": "Devin Foley",
+		"email": "foleyd3@mcmaster.ca",
+		"institution": "McMaster University"
+	  }
 	],
 
 	"permissions": [
