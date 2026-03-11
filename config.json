@@ -88,7 +88,7 @@
 		},
 		{
 			"key": "zip",
-			"name": "Zip Code Field",
+			"name": "Zip/Postal Code Field",
 			"required": false,
 			"type": "field-list",
 			"repeatable": false,
@@ -124,6 +124,33 @@
 			"required": false,
 			"type": "checkbox",
 			"repeatable": false
-		}
+		},
+
+		{  
+			"key" : "city_boundary",
+			"type": "file",
+			"name": "City boundary GeoJSON",
+			"required": true
+		},
+		{
+			"key" : "neighbourhood_boundaries",
+			"type": "file",
+			"name": "Neighbourhood boundaries GeoJSON",
+			"required": false
+		},
+	
+		{ 
+			"key":"approved_neighbourhoods",
+			"type": "file",
+			"name": "Approved neighbourhoods JSON",
+			"required": false
+		},
+		
+		{
+			"key":"check_neighbourhood",
+			"type": "checkbox",
+			"label": "Enable neighbourhood check",
+			"default": true,
+			"required": false
 	]
 }
