@@ -3,7 +3,7 @@
 
 	"namespace": "Vanderbilt\\AddressExternalModule",
 
-	"description": "This module takes address coordinates from fields specified and autocompletes a street address. Requires a Google API key, an https connection, and a municipal GeoJSON file of type FeatureCollection. An additional neighbourhood boundary check can be achieved by adding an additional FeatureCollecion GeoJSON. A list of neighbourhood names is also required if this feature is used.",
+	"description": "This module takes address coordinates from fields specified and autocompletes a street address. Requires a Google API key, an https connection, and a municipal GeoJSON file of type FeatureCollection. An additional neighbourhood boundary check can be achieved by adding an additional FeatureCollecion GeoJSON. A JSON list of neighbourhood names is also required if this feature is used.",
 
 	"authors": [
 	  {
