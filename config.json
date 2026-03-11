@@ -125,6 +125,24 @@
 			"type": "checkbox",
 			"repeatable": false
 		},
+		
+		{
+			"key": "within_neighbourhood",
+			"name": "Within Neighbourhood Field (text)",
+			"required": false,
+			"type": "field-list",
+			"repeatable": false,
+			"autocomplete": true
+		},
+		
+		{
+			"key": "within_city",
+			"name": "Within City (yes/no)",
+			"required": false,
+			"type": "field-list",
+			"repeatable": false,
+			"autocomplete": true
+		},
 
 		{  
 			"key" : "city_boundary",
