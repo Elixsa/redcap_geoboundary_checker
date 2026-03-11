@@ -3,7 +3,7 @@
 use ExternalModules\AbstractExternalModule;
 use ExternalModules\ExternalModules;
 
-include_once GeoBoundaryChecker.php
+include_once GeoBoundaryChecker.php;
 
 class AddressExternalModule extends AbstractExternalModule
 {
