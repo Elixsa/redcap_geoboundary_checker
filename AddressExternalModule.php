@@ -3,6 +3,8 @@
 use ExternalModules\AbstractExternalModule;
 use ExternalModules\ExternalModules;
 
+include_once GeoBoundaryChecker.php
+
 class AddressExternalModule extends AbstractExternalModule
 {
 	function hook_survey_page($project_id, $record, $instrument, $event_id, $group_id) {
